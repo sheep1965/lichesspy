@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name="lichesspy",
-    version="0.0.1",
+    version="0.0.2",
     author="Zeyecx",
     author_email="zeyecx@gmail.com",
     description="Python wrapper for lichess",
@@ -19,9 +19,6 @@ setuptools.setup(
     ],
     python_requires=">=3.8",
     install_requires=[
-        "requests >= 2.25.1",
-        "requests-oauthlib==1.3.0",
-        "six==1.15.0",
-        "urllib3>=1.26.4"
+        "requests >= 2.25.1"
     ],
 )
