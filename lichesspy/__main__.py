@@ -1,4 +1,4 @@
-from user import user
+from lichesspy.user import user
 
 if __name__ == "__main__":
     user()
