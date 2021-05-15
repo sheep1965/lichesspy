@@ -1,5 +1,21 @@
 import setuptools
 
+
+def def_requirements():
+    """ Check PIP Requirements """
+    with open('requirements.txt') as f:
+        pip_lines = f.read().splitlines()
+    return pip_lines
+
+
+def def_readme():
+    """ Check Readme RST """
+    readme = ''
+    with open('README.rst') as f:
+        readme = f.read()
+    return readme
+
+
 setuptools.setup(
     name="lichesspy",
     version="0.0.2",
@@ -18,7 +34,5 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     python_requires=">=3.8",
-    install_requires=[
-        "requests >= 2.25.1"
-    ],
+    install_requires=def_requirements(),
 )
