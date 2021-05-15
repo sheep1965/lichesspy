@@ -1,0 +1,7 @@
+include README.rst
+include LICENSE
+include requirements.txt
+include lichesspy/api.py
+include lichesspy/auth.py
+include lichesspy/format.py
+include lichesspy/pgn.py
