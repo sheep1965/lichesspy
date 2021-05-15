@@ -1,3 +1,3 @@
 # lichesspy
-Python Wrapper for lichess.org
+Python Wrapper for lichess.org :)
 
