@@ -1,2 +1,3 @@
-if __name__ == "__main__":
+def user():
+    """ Test Package Module """
     print("Hallo Welt")
