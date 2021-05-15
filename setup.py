@@ -26,7 +26,7 @@ def def_short():
 
 setuptools.setup(
     name="lichesspy",
-    version="0.0.2",
+    version="0.0.3",
     author="Zeyecx",
     author_email="zeyecx@gmail.com",
     description="Python wrapper for lichess",
