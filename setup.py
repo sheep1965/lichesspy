@@ -16,13 +16,21 @@ def def_readme():
     return readme
 
 
+def def_short():
+    """ Check Readme MDL """
+    readme = ''
+    with open('README.md') as f:
+        readme = f.read()
+    return readme
+
+
 setuptools.setup(
     name="lichesspy",
     version="0.0.2",
     author="Zeyecx",
     author_email="zeyecx@gmail.com",
     description="Python wrapper for lichess",
-    long_description="Python wrapper for lichess",
+    long_description=def_readme(),
     long_description_content_type="text/markdown",
     url="https://github.com/Zeyecx/lichesspy",
     packages=['lichesspy'],
