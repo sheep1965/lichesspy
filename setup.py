@@ -9,7 +9,7 @@ setuptools.setup(
     long_description="Python wrapper for lichess",
     long_description_content_type="text/markdown",
     url="https://github.com/Zeyecx/lichesspy",
-    packages=setuptools.find_packages(),
+    packages=['lichesspy'],
     package_data={"lichesspy": ["VERSION"]},
     include_package_data=True,
     classifiers=[
